@@ -1,0 +1,171 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+
+body {
+    background-image: linear-gradient(180deg, #71D087, #1b4525, #04300E);
+    margin: auto;
+}
+
+.navbar {
+    background-color: #1d4e22;
+}
+
+.navbar img {
+    padding: 1vw;
+    width: 100px;
+    height: 100%;
+}
+
+.navbar a {
+    color: #8dba92;
+}
+
+.navbar a:hover {
+    background-color: transparent;
+    color: #0c190d;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1vw;
+    background-image: url(../images-cle/forrest3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #e2f0e4;
+}
+
+header section {
+    margin: 0 2vw 0 2vw;
+}
+
+header div {
+    margin: 2vh 0 2vh 0;
+}
+
+header h1 {
+    padding: 2vw;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: "Great Vibes";
+    text-shadow: 2px 2px 3px #0c190d;
+}
+
+header p {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 1px #0c190d;
+}
+
+main .picture-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw;
+    gap: 3vw;
+}
+
+main .picture-bar div {
+    width: 33vw;
+    height: 50vh;
+    border: #181324;
+    border-style: solid;
+}
+
+main .picture-bar div img {
+    width: 33vw;
+    height: 49.4vh;
+    object-fit: cover;
+}
+
+main .descript {
+    display: flex;
+    justify-content: space-between;
+    max-height: 33vh;
+    margin: 2vh 0 2vh 0;
+    padding: 1vw;
+}
+
+main .img1 {
+    background-image: url(../images-cle/fourthwing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 33vh;
+    width: 49vw;
+}
+
+main .img2 {
+    background-image: url(../images-cle/nightcourt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 33vh;
+    width: 50vw;
+}
+
+main .img3 {
+    background-image: url(../images-cle/harpy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 33vh;
+    width: 49vw;
+}
+
+main .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #8dba92;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 49vw;
+    padding-right: 1vw;
+}
+
+main .text h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+main .text p {
+    font-size: 1.2rem;
+}
+
+main .text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #8dba92;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 49vw;
+    padding-left: 1vw;
+}
+
+main .text1 h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+main .text1 p {
+    font-size: 1.2rem;
+}
+
+footer {
+    margin-top: 10vh;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #03250b;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer img {
+    padding: 1vw;
+    width: 8vw;
+    height: 100%;
+}
+
